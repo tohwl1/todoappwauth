@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Landing = () => {
   return (
     <div className="jumbotron mt-5">
-      <h1>Welcome to your Todo List</h1>
+      <h1>Welcome to your Todo List app!</h1>
       <p>Sign in to use</p>
       <Link to="/login" className="btn btn-primary">
         Login
